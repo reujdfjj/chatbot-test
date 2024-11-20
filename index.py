@@ -11,9 +11,9 @@ import requests
 
 load_dotenv()
 
-openai.api_key = os.getenv("OPEN_AI_KEY")
-openai.organization = os.getenv("OPEN_AI_ORG")
-elevenlabs_key = os.getenv("ELEVENLABS_KEY")
+openai.api_key = os.getenv("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")
+openai.organization = os.getenv("Vi4kLbGohEK982BZXeTgNGow")
+elevenlabs_key = os.getenv("sk_0c1c166fe2d044d53a4a9fefed968db95bd4f928cab72afa")
 
 app = FastAPI()
 
